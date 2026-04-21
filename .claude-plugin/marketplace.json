@@ -1,0 +1,84 @@
+{
+  "name": "pkm-query-tools",
+  "owner": {
+    "name": "Idan Ariav",
+    "email": "idan@idanariav.com"
+  },
+  "metadata": {
+    "description": "PKM query tools for Obsidian-style markdown vaults — image search, link-graph analysis, and unresolved wikilink management"
+  },
+  "plugins": [
+    {
+      "name": "qimg",
+      "source": {
+        "source": "npm",
+        "package": "@idan_ariav/qimg"
+      },
+      "description": "On-device hybrid image search with SigLIP 2 vector search and BM25 keyword search over filenames and sidecar captions",
+      "version": "0.1.0",
+      "author": {
+        "name": "Idan Ariav"
+      },
+      "homepage": "https://github.com/idanariav/qimg#readme",
+      "repository": "https://github.com/idanariav/qimg",
+      "license": "MIT",
+      "keywords": ["image", "search", "vector", "siglip", "mcp", "obsidian", "pkm"],
+      "category": "search",
+      "strict": false,
+      "mcpServers": {
+        "qimg": {
+          "command": "${CLAUDE_PLUGIN_ROOT}/bin/qimg",
+          "args": ["mcp"]
+        }
+      }
+    },
+    {
+      "name": "qnode",
+      "source": {
+        "source": "npm",
+        "package": "@idan_ariav/qnode"
+      },
+      "description": "Link-graph indexing and querying for markdown knowledge vaults with 7 semantic link categories (siblings, supporters, distance, PageRank)",
+      "version": "0.1.0",
+      "author": {
+        "name": "Idan Ariav"
+      },
+      "homepage": "https://github.com/idanariav/qnode#readme",
+      "repository": "https://github.com/idanariav/qnode",
+      "license": "MIT",
+      "keywords": ["knowledge-graph", "link-graph", "markdown", "obsidian", "pkm", "wikilinks", "mcp"],
+      "category": "knowledge",
+      "strict": false,
+      "mcpServers": {
+        "qnode": {
+          "command": "${CLAUDE_PLUGIN_ROOT}/bin/qnode",
+          "args": ["mcp"]
+        }
+      }
+    },
+    {
+      "name": "qvoid",
+      "source": {
+        "source": "npm",
+        "package": "@idan_ariav/qvoid"
+      },
+      "description": "Index, query, and deduplicate unresolved wikilinks across Obsidian-style vaults with semantic type classification",
+      "version": "0.1.0",
+      "author": {
+        "name": "Idan Ariav"
+      },
+      "homepage": "https://github.com/idanariav/qvoid#readme",
+      "repository": "https://github.com/idanariav/qvoid",
+      "license": "MIT",
+      "keywords": ["obsidian", "wikilinks", "zettelkasten", "markdown", "notes", "pkm", "mcp"],
+      "category": "knowledge",
+      "strict": false,
+      "mcpServers": {
+        "qvoid": {
+          "command": "${CLAUDE_PLUGIN_ROOT}/bin/qvoid",
+          "args": ["mcp"]
+        }
+      }
+    }
+  ]
+}
