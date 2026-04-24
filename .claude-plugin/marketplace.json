@@ -79,6 +79,54 @@
           "args": ["mcp"]
         }
       }
+    },
+    {
+      "name": "qmd",
+      "source": {
+        "source": "npm",
+        "package": "@idan_ariav/qmd"
+      },
+      "description": "Query Markup Documents - On-device hybrid search for markdown files with BM25, vector search, and LLM reranking",
+      "version": "2.1.0",
+      "author": {
+        "name": "Idan Ariav"
+      },
+      "homepage": "https://github.com/idanariav/qmd#readme",
+      "repository": "https://github.com/idanariav/qmd",
+      "license": "MIT",
+      "keywords": ["markdown", "search", "fts", "full-text-search", "vector", "semantic-search", "sqlite", "bm25", "embeddings", "rag", "mcp", "reranking", "knowledge-base", "local-ai", "llm"],
+      "category": "search",
+      "strict": false,
+      "mcpServers": {
+        "qmd": {
+          "command": "${CLAUDE_PLUGIN_ROOT}/bin/qmd",
+          "args": ["mcp"]
+        }
+      }
+    },
+    {
+      "name": "qmdx",
+      "source": {
+        "source": "npm",
+        "package": "@idan_ariav/qmdx"
+      },
+      "description": "Structured markdown index and query DSL — frontmatter, sections, tags, dates; CLI + MCP with semantic search",
+      "version": "0.1.0",
+      "author": {
+        "name": "Idan Ariav"
+      },
+      "homepage": "https://github.com/idanariav/qmdx#readme",
+      "repository": "https://github.com/idanariav/qmdx",
+      "license": "MIT",
+      "keywords": ["markdown", "obsidian", "pkm", "query", "frontmatter", "sections", "mcp"],
+      "category": "search",
+      "strict": false,
+      "mcpServers": {
+        "qmdx": {
+          "command": "${CLAUDE_PLUGIN_ROOT}/bin/qmdx",
+          "args": ["mcp"]
+        }
+      }
     }
   ]
 }
