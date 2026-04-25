@@ -15,7 +15,7 @@
         "package": "@idan_ariav/qimg"
       },
       "description": "On-device hybrid image search with SigLIP 2 vector search and BM25 keyword search over filenames and sidecar captions",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Idan Ariav"
       },
