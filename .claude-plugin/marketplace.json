@@ -39,7 +39,7 @@
         "package": "@idan_ariav/qnode"
       },
       "description": "Link-graph indexing and querying for markdown knowledge vaults with 7 semantic link categories (siblings, supporters, distance, PageRank)",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Idan Ariav"
       },
