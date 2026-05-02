@@ -63,7 +63,7 @@
         "package": "@idan_ariav/qvoid"
       },
       "description": "Index, query, and deduplicate unresolved wikilinks across Obsidian-style vaults with semantic type classification",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Idan Ariav"
       },
