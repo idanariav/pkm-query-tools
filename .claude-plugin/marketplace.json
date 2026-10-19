@@ -15,7 +15,7 @@
         "package": "@idan_ariav/qimg"
       },
       "description": "On-device hybrid image search with SigLIP 2 vector search and BM25 keyword search over filenames and sidecar captions",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Idan Ariav"
       },
@@ -63,7 +63,7 @@
         "package": "@idan_ariav/qvoid"
       },
       "description": "Index, query, and deduplicate unresolved wikilinks across Obsidian-style vaults with semantic type classification",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "author": {
         "name": "Idan Ariav"
       },
@@ -87,7 +87,7 @@
         "package": "@idan_ariav/qmd"
       },
       "description": "Query Markup Documents - On-device hybrid search for markdown files with BM25, vector search, and LLM reranking",
-      "version": "2.5.1",
+      "version": "2.6.0",
       "author": {
         "name": "Idan Ariav"
       },
